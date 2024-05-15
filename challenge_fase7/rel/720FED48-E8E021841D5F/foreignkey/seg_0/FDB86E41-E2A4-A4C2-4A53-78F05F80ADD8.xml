@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDB86E41-E2A4-A4C2-4A53-78F05F80ADD8" containerWithKeyObject="4843D43B-73A4-B852-26C2-432240FFAC93" localFKIndex="6D4DF829-4B58-0228-172F-6302507669C4" name="t_tag_ticket_t_estacionamento_fk">
+<sourceDDLFile>Ddl_Modelagem_Challenge_Fase7.ddl</sourceDDLFile>
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<importedID>C6671C3B-BA61-5BD7-81CF-59799349BB4E</importedID>
+<referredTableLongName>t_estacionamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>036390BA-2780-394A-7B35-F17BF49A872E</referredTableID>
+<keyObject>329411DA-A3F0-F45E-D1C7-F96626C6B666</keyObject>
+<referredKeyID>329411DA-A3F0-F45E-D1C7-F96626C6B666</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estacionamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

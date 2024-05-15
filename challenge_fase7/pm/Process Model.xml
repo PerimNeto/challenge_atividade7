@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="4B2B61BC-00AF-AE96-3826-832224E97DBB">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:25:54 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

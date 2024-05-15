@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_dispositivo_t_usuario_fk" directorySegmentName="seg_0" id="F73F12FE-00E6-0404-40CE-5B4D063B3D33">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>361EBD22-2525-C2FD-31B7-F35B77D89159</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<sourcePk>0D06B4AD-BAB3-616A-9BCD-AC5CF864B57D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD9FD0B6-D2A8-8A22-71F2-D26257FB4AE5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB153173-C85A-962D-E04B-3AB4B4761956</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

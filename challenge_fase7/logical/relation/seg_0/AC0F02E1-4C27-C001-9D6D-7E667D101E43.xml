@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_tag_ticket_t_estacionamento_fk" directorySegmentName="seg_0" id="AC0F02E1-4C27-C001-9D6D-7E667D101E43">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>FDB86E41-E2A4-A4C2-4A53-78F05F80ADD8</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<sourcePk>0E54CB32-2D5E-8939-41A7-B9D0A7D7DB5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7FDBBEB3-4425-7BC8-8BA4-4A1BB861211B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D4D92A2-B9B0-E7B3-6719-418ECED0956C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_vaga_t_estacionamento_fk" directorySegmentName="seg_0" id="57A5FB5E-573A-B4A2-3388-32DCF051E4F7">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>B911BE10-0DA5-C1A0-6327-C128B10BBD32</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<sourcePk>0E54CB32-2D5E-8939-41A7-B9D0A7D7DB5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7FDBBEB3-4425-7BC8-8BA4-4A1BB861211B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B04E9D37-C4D7-5E9A-D6ED-FD2F213B5DA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

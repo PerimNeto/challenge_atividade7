@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="t_tag_ticket" directorySegmentName="seg_0" id="4843D43B-73A4-B852-26C2-432240FFAC93">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_tag_ticket" id="12664888-30C1-EB28-A195-EABF6E0AB407">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_fim" id="2E4254EB-8DA9-B595-BDDE-CCB0280F1034">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_inicio" id="65883F6F-B057-4E28-D038-88A927592A65">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codigo_barras" id="6F67889E-F565-06E9-8BC9-C8B7CD496377">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_estacionamento" id="75D54D7A-089D-A56B-E7F0-72D25A92AF25">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_veiculo_id_veiculo" id="B88242BC-E3E2-0DDF-9B01-45BC90D913EB">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_estacionamento_id_estacionamento" id="CC47C2DC-8746-257B-36E1-1A8D4EE200BE">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valor" id="D82CA1EA-BD26-670D-554F-D9B6460050B2">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_veiculo" id="E9BB1760-BA03-70EF-1370-07350223C9B5">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="t_tag_ticket_t_estacionamento_fk" id="6D4DF829-4B58-0228-172F-6302507669C4">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="t_tag_ticket_t_veiculo_fk" id="9BAD8BB8-FE87-B057-758B-7C656F096ACD">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev20c>

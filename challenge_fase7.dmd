@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="challenge_fase7" id="01B0278A-0F2F-2848-EBF0-E02FAD295F1A" version="3.5">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:25:54 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>01B0278A-0F2F-2848-EBF0-E02FAD295F1A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8DF54CAB-561D-FDA4-8D83-27C9D74DAED1">
+<designStoragePath>C:\Ddl_Modelagem_Challenge_Fase7</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

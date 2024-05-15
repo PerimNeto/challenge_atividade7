@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="t_vaga" directorySegmentName="seg_0" id="1A02C6BE-2A4E-571E-2335-CB6143113E4B">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="preferencial" id="03660231-7DAC-0349-763C-C16663656195">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="1FA590B5-AA6A-89BF-6992-A54C32703455">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_estacionamento" id="ADA11A43-AD33-C84D-D11F-035DC6A71C51">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_vaga" id="B57ADB20-197E-8F7A-89D7-0AC856AA16C7">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero" id="C77F84A6-6487-A3CB-FADC-AAE0928F3FAB">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_estacionamento_id_estacionamento" id="F5C44AB3-9562-CD1B-965A-41D6B6BB5F9A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="t_vaga_t_estacionamento_fk" id="0AAB7650-06D4-9D8C-7E7E-10923166311B">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="t_vaga_pk" id="D5F89E2F-580B-6339-8BCA-A92483306ADE">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

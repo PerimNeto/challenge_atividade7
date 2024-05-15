@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D4D92A2-B9B0-E7B3-6719-418ECED0956C" name="T_TAG_TICKET">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>4843D43B-73A4-B852-26C2-432240FFAC93</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tag_ticket" id="7220D4FF-1C95-9C6F-AD12-3D70F7CDB1C8">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>12664888-30C1-EB28-A195-EABF6E0AB407</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_veiculo_1" id="408722E6-450D-E23E-9F41-C7743741CC71">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>E9BB1760-BA03-70EF-1370-07350223C9B5</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estacionamento" id="D2C18AFB-6F6C-46B7-1443-BDABCC90073A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>75D54D7A-089D-A56B-E7F0-72D25A92AF25</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_barras" id="69DC3D19-C218-C1A2-F137-95B0F09CA6C8">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>6F67889E-F565-06E9-8BC9-C8B7CD496377</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="6C986354-7B83-7B9B-F008-9BEDF1224313">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>65883F6F-B057-4E28-D038-88A927592A65</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fim" id="1217735C-73E2-DECA-1624-34D72FC2B60A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>2E4254EB-8DA9-B595-BDDE-CCB0280F1034</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="48B6A393-C881-D2BF-494E-A51A25FDC8C2">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>D82CA1EA-BD26-670D-554F-D9B6460050B2</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_veiculo" id="1811E0FF-21E6-B4AD-84EE-BB2DDF7C0700">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:36:17 UTC</createdTime>
+<generatorID>0E0C4E83-B537-D289-1887-15E9E1B58693</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<referedAttribute>FE8CB5B2-939F-F3B9-AAC9-B30EC321B13B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estacionamento1" id="C7B8DEE5-0D0D-D1D4-AB2C-3887FAF4439A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:43:18 UTC</createdTime>
+<generatorID>AC0F02E1-4C27-C001-9D6D-7E667D101E43</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<referedAttribute>3D88329F-F055-6CF1-9E0D-9D795F5A699E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F8FC758-D4C2-21E4-D91F-13F29D5113AE" name="T_TAG_TICKET PK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:41:30 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7220D4FF-1C95-9C6F-AD12-3D70F7CDB1C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

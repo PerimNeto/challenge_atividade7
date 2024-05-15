@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55D0CD02-C1F4-7919-D5CF-8B0CFCE0EE2E" name="T_VAGA_STATUS">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>EBFC0053-745F-A867-895D-9B877C1B2EA7</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vaga_status" id="1F900A84-7516-78F7-52D2-082FEF9A48CA">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>58AF504A-350E-9E7A-17CB-549FBA3BFD64</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vaga" id="A76763EF-3925-844C-4739-A86FE0697325">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>9501A14C-2527-234F-B9C9-7BCC2FD0C8D2</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_veiculo_1" id="0413CA94-9AB0-7061-3153-E7BECFBE0E34">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>21E623A1-59DF-3AF8-24E8-7EB383712E4C</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="2C4B4E1A-98C8-6B4D-19D8-104C1C95EC02">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>254AAAEC-C37E-2EFF-B2CA-B0585E285E8C</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_veiculo" id="DE02EC3F-DC72-044B-ECA6-E0433BB273DF">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:36:17 UTC</createdTime>
+<generatorID>1071D7FE-7FF8-B9BF-E5F7-AD43828AD358</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<referedAttribute>FE8CB5B2-939F-F3B9-AAC9-B30EC321B13B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vaga1" id="6F0F8D82-555E-F98D-E428-585ED8CE31D3">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:39:40 UTC</createdTime>
+<generatorID>E6CB6F28-0922-6603-DA34-CAA610AB0557</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<referedAttribute>653BFB6B-F074-032E-E566-8F54F0A7BA65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0269BA14-BF55-CDAA-7799-E6E46FF7EBD6" name="t vaga status pk">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>488FC1C2-7269-40FB-F464-D8CCA8C8A2E7</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F900A84-7516-78F7-52D2-082FEF9A48CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

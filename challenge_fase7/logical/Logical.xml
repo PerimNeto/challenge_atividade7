@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CCB4F53E-6DE8-F5F2-6A59-416D384D60D2" mainViewID="7CF48E4F-C184-64CC-139B-2A3A6AA8B4A8">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:25:54 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

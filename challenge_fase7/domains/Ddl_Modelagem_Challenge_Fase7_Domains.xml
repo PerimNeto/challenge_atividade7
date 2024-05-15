@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Ddl_Modelagem_Challenge_Fase7_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="1FB14E53-4F4F-FEDE-6E41-B7F834901CEF">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Ddl_Modelagem_Challenge_Fase7_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="6159EAD7-F5D4-9ED8-346B-833314E91B8B">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>Ddl_Modelagem_Challenge_Fase7_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="9584C604-E977-8E6D-7AE0-A082B1B1784D">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Ddl_Modelagem_Challenge_Fase7_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="FLOAT_0_0_0" id="D811C948-1054-BA60-CC67-5806D39D7BDD">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Ddl_Modelagem_Challenge_Fase7_Domains</fileName>
+<logicalDatatype>LOGDT021</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_0" id="E3410043-B4A6-1282-813A-C543B1B53106">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Ddl_Modelagem_Challenge_Fase7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

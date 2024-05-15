@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99FFF4A9-3B8A-5E26-FAFE-30A2A8C3C773" containerWithKeyObject="4843D43B-73A4-B852-26C2-432240FFAC93" localFKIndex="9BAD8BB8-FE87-B057-758B-7C656F096ACD" name="t_tag_ticket_t_veiculo_fk">
+<sourceDDLFile>Ddl_Modelagem_Challenge_Fase7.ddl</sourceDDLFile>
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:27 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<importedID>B5CE69A1-2E4D-C2D1-1E97-804EBAB2029A</importedID>
+<referredTableLongName>t_veiculo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1EC210E-B6D1-1987-42C5-31E5F3A4FFFC</referredTableID>
+<keyObject>A298FAE4-D3F0-2052-39A9-E0B5E41EEDEE</keyObject>
+<referredKeyID>A298FAE4-D3F0-2052-39A9-E0B5E41EEDEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_veiculo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

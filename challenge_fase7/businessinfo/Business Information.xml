@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="16A5D38A-F795-EA8F-8835-6190AAA6601A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:25:54 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

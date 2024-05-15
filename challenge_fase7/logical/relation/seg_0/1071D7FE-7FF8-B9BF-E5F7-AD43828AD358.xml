@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_vaga_status_t_veiculo_fk" directorySegmentName="seg_0" id="1071D7FE-7FF8-B9BF-E5F7-AD43828AD358">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-15 02:32:52 UTC</createdTime>
+<generatorID>C5CB8222-65B2-452A-DFED-22B87868209C</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+</engineerTo>
+<sourcePk>B466F230-3035-F885-2F2A-EEE339FD6F52</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA4A636B-BD88-3383-6CEC-E85681275D53</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55D0CD02-C1F4-7919-D5CF-8B0CFCE0EE2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
